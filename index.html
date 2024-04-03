@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de código HTML módulo01</title>
+</head>
+<body>
+    <h1>Desafio Criar uma página com as tags aprendidas na aula prática</h1>
+    <hr>
+    <h2 id="indice">Índice</h2>
+    <ul>
+        <a href="#estrutura_basica"><li>Estrutura básica HTML</li></a>
+        <a href="#titulos"><li>
+            Títulos  e Subtítulos
+        </li>
+        </a>
+        <a href="#paragrafos"><li>Parágrafos</li></a>
+        <a href="#elementos"><li>Elementos de formatação</li></a>
+        <a href="#imagens"><li>Imagens</li></a>
+        <ul>
+            <a href="#imagens_desk"><li>Imagem do desktop</li></a>
+            <a href="#imagens_web"><li>Imagem web</li></a>
+        </ul>
+        <li>
+            <a href="#listas">Listas</a>
+            <ul>
+                <a href="#listas_ordenadas"><li>Ordenadas</li></a>
+                <a href="#listas_nao_ordenadas"><li>Não Ordenadas</li></a>
+            </ul>
+            <li>
+                <a href="#links">Links</a>
+                <ul>
+                    <a href="#links_externos"><li>Links externos</li></a>
+                    <a href="#ancora"><li>Link de URL relativa</li></a>
+                </ul>
+            </li>
+            <li>
+                <a href="#referencias">Referências</a>
+                <ul>
+                    <a href="#dio"><li>DIO</li></a>
+                    <a href="#w3"><li>W3schools</li></a>
+                </ul>
+               
+            </li></a>
+        </li>
+    </ul>
+
+
+    <h2 id="estrutura_basica">Estrutura básica HTML</h2>
+    <a href="#indice">(voltar)</a>
+    <p>HTML, ou HyperText Markup Language, é a linguagem fundamental para a criação de páginas web. Sua estrutura básica consiste em elementos que organizam e formatam o conteúdo para ser exibido em navegadores da web</p>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <pre style="color: blue;">
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="pt-br"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Exibindo Código HTML&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Olá, Mundo!&lt;/h1&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+
+
+    <h2 id="titulos">Títulos e Subtítulos</h2>
+    <a href="#indice">(voltar)</a>
+    <p>Os títulos em HTML são elementos fundamentais para estruturar e hierarquizar o conteúdo de uma página da web. Eles são representados pelas tags &lt;h1&gt; até &lt;h6&gt;, onde &lt;h1&gt; é o título mais importante e &lt;h6&gt; é o menos importante.</p>
+    
+    <p style="color: brown;">Exemplo de Código:</p>
+    <pre style="color: blue;">
+        &lt;h1&gt; Título 1 &lt;/h1&gt;
+        &lt;h2&gt; Título 2 &lt;/h2&gt;
+        &lt;h3&gt; Título 3 &lt;/h3&gt;
+        &lt;h4&gt; Título 4 &lt;/h4&gt;
+        &lt;h5&gt; Título 5 &lt;/h5&gt;
+        &lt;h6&gt; Título 6 &lt;/h6&gt;
+    </pre>
+    <p style="color: brown;">Resultado:</p>
+    <h1 style="margin-bottom: -20PX;">Título 1</h1>
+    <h2 style="margin-bottom: -19PX;">Título 2</h2>
+    <h3 style="margin-bottom: -18PX;">Título 3</h3>
+    <h4 style="margin-bottom: -16PX;">Título 4</h4>
+    <h5 style="margin-bottom: -16PX;">Título 5</h5>
+    <h6 style="margin-bottom: -10PX;">Título 6</h6>
+   
+    <h2 id="paragrafos">Parágrafos</h2>
+    <a href="#indice">(voltar)</a>
+    <p>Os parágrafos em HTML são elementos utilizados para organizar e estruturar o conteúdo textual em uma página da web. Eles são representados pela tag <code> &lt;p&gt;</code>, que define um bloco de texto. Parágrafos são úteis para separar ideias e tornar o conteúdo mais legível para os usuários.</p>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <p style="color: blue;"><code>&lt;p&gt; Isto é um parágrafo &lt;/p&gt;</code> </p>
+
+
+    <h2 id="elementos">Elementos de formatação</h2>
+    <a href="#indice">(voltar)</a>
+    <p>Os elementos de formatação do HTML são tags que permitem modificar a aparência do texto e do conteúdo em uma página da web como...fazer uma marcação no texto,colocar um sublinhado,colocar um trecho do texto em itálico entre outros aspectos que ela pode modificar no texto</p>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <p style="margin-left: 50px;">
+    <code style="color: blue;">
+        &lt;b&gt; <b>Texto em negrito</b> &lt;/b&gt;<br>
+        &lt;strong&gt; <strong>Texto importante</strong> &lt;/strong&gt;<br>
+        &lt;i&gt; <i>Texto em itálico</i> &lt;/i&gt;<br>
+        &lt;em&gt; <em>Texto enfatizado</em> &lt;/em&gt;<br>
+        &lt;mark&gt; <mark> Texto marcado</mark> &lt;/mark&gt;<br>
+        &lt;small&gt; Texto <small>Menor</small> &lt;/small&gt;<br>
+        &lt;del&gt; <del>Texto excluído</del> &lt;/del&gt;<br>
+        &lt;ins&gt; <ins>Texto inserido</ins> &lt;/ins&gt;<br>
+        &lt;sub&gt; Texto <sub>subscrito</sub> &lt;/sub&gt;<br>
+        &lt;sup&gt; Texto sobrescrito 2<sup>2</sup> &lt;/sup&gt;
+    </code>
+    </p>
+    <h2 id="imagens">Imagens</h2>
+    <a href="#indice">(voltar)</a>
+    <p>A importação de imagens em HTML é uma técnica fundamental para adicionar elementos visuais a uma página da web. Isso é feito por meio da tag <<strong><code style="font-size: 130%;">img</code></strong>> que permite incorporar imagens diretamente no conteúdo HTML.</p>
+    <h3 id="imagens_desk">Importando uma imagem do computador</h3>
+    <p>Ao criar uma página da web, você pode importar imagens diretamente da sua própria máquina para adicionar elementos visuais personalizados ao conteúdo. Isso é feito utilizando a tag <img> em conjunto com o atributo src, onde você especifica o caminho local para o arquivo de imagem no seu computador. Por exemplo:</p>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <p><b><<code>
+        img width="200px" src="img/java.jpeg" alt="Imagem Java"
+    </code>></b></p>
+    <img width="200px" src="img/java.jpeg" alt="Imagem Java">
+    <h3 id="imagens_web">Importando uma imagem da WEB</h3>
+    <p>Além de importar imagens da sua própria máquina, você também pode utilizar imagens hospedadas na internet para adicionar recursos visuais à sua página da web. </p>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <p><b><<code>
+        img width="200px" src="https://azilen-technologies.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/07/spring.jpg" alt="Imagem SpringBoot"
+    </code>></b></p>
+    <p>
+    <img width="200px" src="https://azilen-technologies.s3.us-west-1.amazonaws.com/wp-content/uploads/2023/07/spring.jpg" alt="Imagem SpringBoot">
+    </p>
+
+
+    <h2 id="listas">Listas</h2>
+    <a href="#indice">(voltar)</a>
+    <p>Listas em HTML são usadas para organizar e apresentar informações de forma estruturada e hierárquica em uma página da web. Existem dois tipos principais de listas em HTML: listas ordenadas e listas não ordenadas.</p>
+    <h3 id="listas_ordenadas">Listas Ordenada</h3>
+    <p>Listas ordenadas são criadas usando a tag <code style="color: blue;">&lt;ol&gt;</code> e também contêm itens de lista representados pela tag <code style="color: blue;">&lt;li&gt;</code>. Essas listas são usadas quando a ordem dos itens é importante, como em uma lista de instruções passo a passo ou em uma lista de classificação.</p>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <pre style="color: blue;">
+       &lt;ol&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;SubItem 3.1&lt;/li&gt;
+                    &lt;li&gt;Item 3.2&lt;/li&gt;
+                &lt;/ol&gt;
+        &lt;/ol&gt;
+        </pre>
+        <p style="color: brown;">Resultado:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>item 2</li>
+        <li>Item 3</li>
+        <ol>
+            <li>SubItem 3.1</li>
+            <li>SubItem 3.2</li>
+        </ol>
+    </ol>
+
+
+    <h3 id="listas_nao_ordenadas">listas não Ordenada</h3>
+    <p>As listas não ordenadas são criadas usando a tag <code style="color: blue;">&lt;ul&gt;</code> e consistem em itens de lista representados pela tag <code style="color: blue;">&lt;li&gt;</code>. Essas listas são usadas quando a ordem dos itens não é importante, como em uma lista de itens de navegação ou em uma lista de recursos.</p>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <pre style="color: blue;">
+       &lt;ul&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;SubItem 3.1&lt;/li&gt;
+                    &lt;li&gt;Item 3.2&lt;/li&gt;
+                &lt;/ol&gt;
+        &lt;/ul&gt;
+        </pre>
+        <p style="color: brown;">Resultado:</p>
+    <ul>
+        <li>Item 1</li>
+        <li>item 2</li>
+        <li>Item 3</li>
+        <ul>
+            <li>SubItem 3.1</li>
+            <li>SubItem 3.2</li>
+        </ul>
+    </ul>
+
+
+    <h2 id="links">Links</h2>
+    <a href="#indice">(voltar)</a>
+    <p>Links em HTML, representados pela tag <code style="color: blue;">&lt;a&gt;</code>, desempenham um papel essencial na navegação na web, permitindo que os usuários naveguem entre diferentes páginas da web, sites e recursos online com facilidade.</p>
+    <h3 id="links_externos">Links Externos</h3>
+    <p>Geralmente links que levam sites externos</p>
+    <a href="https://www.dio.me/" target="_blank">DIO.ME</a>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <code style="color: blue;">&lt;a&gt; href="https://www.dio.me/" target="_blank">DIO.ME&lt;/a&gt;</code>
+   
+    <h3 id="ancora">Links de URL relativa</h3>
+    <p>Links que navegam dentro da própria página ou dentro de um recurso no mesmo servidor</p>
+    <a href="#indice">Voltar ao índice</a>
+    <p style="color: brown;">Exemplo de Código:</p>
+    <code style="color: blue;">&lt;a&gt; href="#indice">Voltar ao índice&lt;/a&gt;</code>
+
+
+    <h2 id="referencias">Referências</h2>
+    <a href="#indice">(voltar)</a>
+    <h3 id="dio">DIO</h3>
+    <p>A Digital Innovation One é uma empresa de educação digital que oferece cursos online e gratuitos em diversas áreas da tecnologia, como desenvolvimento web, mobile, inteligência artificial, ciência de dados, entre outros. Fundada com o objetivo de democratizar o acesso à educação de qualidade na área de tecnologia, a DIO proporciona oportunidades de aprendizado para milhões de pessoas em todo o mundo, ajudando a desenvolver habilidades relevantes para o mercado de trabalho do futuro. </p>
+    Link: <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a>
+
+
+    <h3 id="w3">W3schools</h3>
+    <p>A W3Schools é uma plataforma online líder em educação em tecnologia, focada em oferecer tutoriais, referências e exemplos práticos sobre uma ampla variedade de tecnologias da web. Fundada em 1998, a W3Schools tem como objetivo fornecer recursos acessíveis e de fácil compreensão para estudantes, desenvolvedores web e profissionais de tecnologia em todo o mundo.</p>
+    Link: <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Schools</a>
+</body>
+</html>
+
